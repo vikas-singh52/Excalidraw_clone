@@ -100,6 +100,11 @@ footer{
 .left-foot{
     display:flex;
 }
+.left-foot div{
+    height:40px;
+    border-radius: 10px;
+}
+
 
     
 
