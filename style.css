@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.back-color{
+    background-color: rgba(0, 0, 0, .08);
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 5px;
+  margin-inline: 25px;
+  box-sizing: border-box;
+  height:50px;
+}
+
+.menu-icon button {
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.middle-icons {
+  border: none;
+  box-shadow: 0px 0px 5px;
+  padding-inline: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.bord {
+  border-left: 2px solid grey;
+  height: 20px;
+  width: 0px;
+  display: inline-block;
+}
+.middle-icons button {
+
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+
+.middle-icons button:hover {
+  background-color: lightgrey;
+  height: 35px;
+  text-align: center;
+  border-radius: 5px;
+}
+.middle-icons span {
+  color: rgba(0, 0, 0, 0.626);
+  background-color: white;
+  font-weight: 2px;
+  font-size: 20px;
+}
+.right-icon button {
+  padding-inline: 5px;
+  margin-inline: 5px;
+}
+.right-icon button:first-child {
+  background-color: purple;
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    margin-bottom: 20px;
+    width:100vw;
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+   
+
+}
+.foot-mid  button{
+    background-color: rgba(0, 0, 0, .02);
+    
+}
+.foot-mid  button:hover{
+    background-color: rgba(0, 0, 0, .08);
+    border-radius: 8px;;
+    
+}
+.foot-right .user{
+    color:blue;
+    
+
+}
+.foot-range{
+    
+    
+}
+.left-foot{
+    display:flex;
+}
+
+    
+
+@media  screen  and (max-width:730px) {
+    .left-foot{
+        display: none;
+    }
+    .foot-right{
+        display: none;
+    }
+    .menu-icon{
+        position:fixed;
+        bottom:0;
+        left:0;
+    }
+    .foot-mid{
+        margin:auto;
+       
+    }
+    .right-icon .group{
+        display:none;
+    }
+   
+    .fl-right1{
+        float:right;
+        position: fixed;
+        right:0;
+        top:100px;
+    }
+    .fl-right2{
+        float:right;
+        position: fixed;
+        right:0;
+        top:130px;
+    }
+    .fl-right3{
+        float:right;
+        position: fixed;
+        right:0;
+        top:160px;
+    }
+    
+}
+
+
+
+
+
